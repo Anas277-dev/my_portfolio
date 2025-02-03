@@ -2334,7 +2334,7 @@ footer
     .footer_logos ul
     {
         width: 68%;
-        background-color: violet;
+        /* background-color: violet; */
         /* display: flex;
         justify-content: space-around; */
     }
