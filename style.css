@@ -86,6 +86,10 @@ li a
     color: #fff;
     text-decoration: none;
 }
+.active {
+    color: #40E0D0 !important;
+}
+
 
 #home
 {
@@ -2440,6 +2444,7 @@ footer
     z-index: 1000;
     /* background-color: #4169E1; */
     border-radius: 5px;
+    color: #fff;
 }
 
 .hamburger-icon i {
@@ -2449,6 +2454,7 @@ footer
     font-size: 25px;
     margin: 4px 0;
     /* transition: 0.4s; */
+    color: #fff;
 }
 
 .sidebar {
@@ -2461,6 +2467,9 @@ footer
     transition: 0.4s;
     z-index: 999;
     padding-top: 60px;
+}
+.sidebar.active {
+    left: 0; /* Show sidebar when active */
 }
 
 .sidebar ul {
