@@ -52,6 +52,7 @@
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 1fr;
 }
+
 /* .left
 {
     background-color: yellowgreen;
@@ -594,6 +595,10 @@ footer
     align-items: center;
     justify-content: center;
 }
+.footer_triangle a
+{
+    color: #fff;
+}
 .footer_triangle i
 {
     font-size: 20px;
@@ -603,6 +608,10 @@ footer
 {
     background-color: #fff;
     transition: .8s;
+    
+}
+.footer_triangle:hover a
+{
     color:#1B1F3B;
     
 }
@@ -2528,3 +2537,223 @@ footer
         left: 0; /* Show sidebar when active */
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #1B1F3B;
+    color: #ffffff;
+}
+
+/* .dark-theme .container {
+    background: url(image/quote-dark.jpg) center no-repeat fixed;
+} */
+
+.dark-theme .top {
+    background-color: #fff;
+}
+.dark-theme .top .logo
+{
+    background-color: #fff;
+}
+
+.dark-theme .nav {
+    background-color: #fff;
+}
+.dark-theme nav ul li
+{
+    color: #1B1F3B;
+}
+
+.dark-theme nav ul li a {
+    color: #1B1F3B;
+}
+.dark-theme .top .nav .left
+{
+    background-color: #fff;
+}
+.dark-theme .top .nav .right
+{
+    background-color: #fff;
+}
+.dark-theme .top .nav .center
+{
+    background-color: #fff;
+    
+}
+
+
+.dark-theme #home {
+    background-color: #1B1F3B;
+}
+.dark-theme #home .line
+{
+    background-color: #fff;
+}
+.dark-theme #home .homeLogo
+{
+    background-color: #fff;
+    box-shadow: 10px 10px #34385b;
+}
+.dark-theme #intro p {
+    color: #ffffff;
+}
+
+.dark-theme #about {
+    background-color: #1B1F3B;
+}
+.dark-theme #about h2
+{
+    color: #fff;
+}
+.dark-theme #about h3
+{
+    color: #fff;
+}
+.dark-theme #about .line
+{
+    background-color: #fff;
+}
+.dark-theme #about .triangle i
+{
+    color: #1B1F3B;
+}
+.dark-theme #about p
+{
+    color: #fff;
+}
+
+.dark-theme #my_projects {
+    background-color: #1B1F3B;
+}
+.dark-theme #my_projects h2 {
+    color: #fff;
+}
+.dark-theme #my_projects h3 {
+    color: #fff;
+}
+.dark-theme #my_projects .line {
+    background-color: #fff;
+}
+
+
+.dark-theme #contact {
+    background-color: #1B1F3B;
+}
+.dark-theme #contact h2 {
+    color: #fff;
+}
+.dark-theme #contact h3 {
+    color: #fff;
+}
+.dark-theme #contact .line {
+    background-color: #fff;
+}
+
+.dark-theme input,
+.dark-theme textarea {
+    background-color: #fff;
+    color: #1B1F3B;
+    border: none;
+}
+
+.dark-theme .submit_btn button {
+    background-color: #1B1F3B;
+    color: #ffffff;
+    border: 1px solid #fff;
+}
+
+.dark-theme .submit_btn button:hover {
+    background-color: #fff;
+    color: #1B1F3B;
+}
+
+.dark-theme .hamburger-icon {
+    color: #1B1F3B;
+}
+
+.dark-theme .hamburger-icon i {
+    color: #1B1F3B;
+}
+
+.dark-theme .sidebar {
+    background-color: #1B1F3B;
+}
+
+.dark-theme .sidebar ul li a {
+    color: #ffffff;
+}
+
+.dark-theme .sidebar ul li a:hover {
+    color: #40E0D0;
+}
+
+/* .dark-theme #footer
+{
+    background-color:#fff;
+}
+.dark-theme #footer .footer_triangle
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #1B1F3B;
+    background-color: #1B1F3B;
+    transform: rotate(45deg);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_triangle i
+{
+    font-size: 20px;
+    transform: rotate(-45deg);
+}
+.footer_triangle:hover 
+{
+    background-color: #fff;
+    transition: .8s;
+    color:#1B1F3B;
+    
+}
+.footer_logos ul
+{
+    width: 80%;
+    background-color: violet;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_logos ul li
+{
+    list-style: none;
+} */
