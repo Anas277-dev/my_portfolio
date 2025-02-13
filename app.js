@@ -67,14 +67,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const body = document.body;
 
     function setTheme(isDark) {
+        const moonIcon = '<i class="fas fa-moon"></i>';
+        const sunIcon = '<i class="fas fa-sun"></i>';
+
         if (isDark) {
             body.classList.add('dark-theme');
-            themeToggleSidebar.textContent = 'Light Mode';
-            themeToggleNav.textContent = 'Light Mode';
+            themeToggleSidebar.innerHTML = `${sunIcon} `;
+            themeToggleNav.innerHTML = `${sunIcon} `;
         } else {
             body.classList.remove('dark-theme');
-            themeToggleSidebar.textContent = 'Dark Mode';
-            themeToggleNav.textContent = 'Dark Mode';
+            themeToggleSidebar.innerHTML = `${moonIcon} `;
+            themeToggleNav.innerHTML = `${moonIcon} `;
         }
     }
 
