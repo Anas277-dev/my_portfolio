@@ -224,20 +224,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Download CV Button
     const cvBtn = document.getElementById('cvBtn');
-    if (cvBtn) {
-        cvBtn.addEventListener('click', function(e) {
-            e.preventDefault();
-            // Replace with your actual CV URL
-            const pdfPath = "/my_portfolio/image/myCV.pdf";
-            
-            const link = document.createElement('a');
-            link.href = pdfPath;
-            link.download = 'Anas_CV.pdf';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });
-    }
+
+if (cvBtn) {
+    cvBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const pdfPath = "https://anas277-dev.github.io/my_portfolio/image/myCV.pdf";
+
+        const link = document.createElement('a');
+        link.href = pdfPath;
+        link.setAttribute('download', 'Anas_CV.pdf');
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+}
+
 
     // Form Submission
     const contactForm = document.querySelector('.contact-form');
