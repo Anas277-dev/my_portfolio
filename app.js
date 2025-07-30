@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cvBtn.addEventListener('click', function(e) {
             e.preventDefault();
             // Replace with your actual CV URL
-            const pdfPath = "image/myCV.pdf";
+            const pdfPath = "/my_portfolio/image/myCV.pdf";
             
             const link = document.createElement('a');
             link.href = pdfPath;
